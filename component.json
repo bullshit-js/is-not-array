@@ -1,0 +1,18 @@
+{
+  "name" : "is-not-array",
+  "description" : "Array#isNotArray for older browsers",
+  "version" : "1.0.0",
+  "repository" : "bullshit-js/is-not-array",
+  "homepage": "https://github.com/bullshit-js/is-not-array",
+  "main" : "index.js",
+  "scripts" : [
+    "index.js"
+  ],
+  "dependencies" : {},
+  "keywords": ["browser","isnotarray","array", "is-not-array"],
+  "author": {
+    "name": "Bullshit-js",
+    "url": "https://github.com/bullshit-js"
+  },
+  "license": "MIT"
+}

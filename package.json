@@ -1,0 +1,50 @@
+{
+  "name": "@bullshit-js/is-not-array",
+  "description": "Array#isNotArray for older browsers",
+  "version": "2.0.4",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bullshit-js/is-not-array.git"
+  },
+  "homepage": "https://github.com/bullshit-js/is-not-array",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "isarray": "^2.0.4"
+  },
+  "devDependencies": {
+    "tape": "~2.13.4"
+  },
+  "keywords": [
+    "browser",
+    "isnotarray",
+    "is-not-array",
+    "array"
+  ],
+  "author": {
+    "name": "Bullshit-js",
+    "url": "https://github.com/bullshit-js"
+  },
+  "license": "MIT",
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "scripts": {
+    "test": "tape test.js"
+  }
+}
